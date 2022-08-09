@@ -1,0 +1,32 @@
+.c-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px 16px 0px;
+}
+
+.c-header__icon {}
+
+.c-header__nav {}
+
+.c-header__smth {
+    width: 35px;
+    text-align: center;
+    cursor: default;
+}
+
+.c-header__face--1 {
+    display: block;
+}
+
+.c-header__face--2 {
+    display: none;
+}
+
+.c-header__smth:hover .c-header__face--1 {
+    display: none;
+}
+
+.c-header__smth:hover .c-header__face--2 {
+    display: block;
+}

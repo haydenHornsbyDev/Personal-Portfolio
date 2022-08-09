@@ -1,0 +1,52 @@
+.c-hero {
+    position: relative;
+    height: 100vh;
+    min-height: fit-content;
+    max-height: 1080px;
+}
+
+.c-hero__content {
+    position: relative;
+    top: calc((50vh - 45.35px) - 168px);
+    height: 336px;
+    width: inherit;
+}
+
+.c-hero__divider {
+    position: absolute;
+    top: 14px;
+    border-radius: 3px;
+    width: 6px;
+    height: 336px;
+    background-color: #84239B;
+}
+
+.c-hero__name {
+    position: absolute;
+    left: 10px;
+}
+
+.c-hero__firstname {}
+
+.c-hero__surname {}
+
+.c-hero__text {
+    position: absolute;
+    top: 232px;
+    left: 15px;
+}
+
+.c-hero__title {
+    margin-bottom: 10px;
+}
+
+.c-hero__caption {
+    line-height: 24px;
+}
+
+.c-hero__arrow {
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 35.35px);
+    display: block;
+}

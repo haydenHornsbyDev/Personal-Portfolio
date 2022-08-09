@@ -1,0 +1,31 @@
+.c-nav {}
+
+/* .c-nav__carousel {}
+
+.c-nav__arrows {}
+
+.c-nav__arrow--left {}
+
+.c-nav__arrow--right {}
+
+.c-nav__track {} */
+
+.c-nav__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px -5px;
+}
+
+.c-nav__item {
+    padding: 0px 5px;
+}
+
+.c-nav__link {
+    display: block;
+}
+
+.c-nav__link.is-active {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercased;
+}

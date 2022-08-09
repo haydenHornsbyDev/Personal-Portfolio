@@ -1,0 +1,67 @@
+
+/*--------------IMPORTS-------------*/
+
+/*              GENERIC             */
+@import "css/generic/reset.css";
+
+/*              ELEMENTS            */
+@import "css/elements/body.css";
+@import "css/elements/html.css";
+@import "css/elements/list.css";
+@import "css/elements/text-styles.css";
+
+/*              OBJECTS             */
+@import "css/objects/container.css";
+@import "css/objects/wrapper.css";
+
+/*              COMPONENTS          */
+@import "css/components/index.css";
+@import "css/components/about.css";
+@import "css/components/projects.css";
+@import "css/components/contact.css";
+
+@import "css/components/header.css";
+@import "css/components/hero.css";
+@import "css/components/nav.css";
+
+/*              UTILITIES           */
+@import "css/utilities/u-text.css";
+
+/*              STATE               */
+@import "css/states/hidden.css";
+
+
+/*----------------------------------*/
+
+.endSpace {
+    height: 3000px;
+}
+
+/*      MEDIA QUIERY TEMPLATE       */
+@media only screen and (min-width: 576px) {}
+@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1400px) {}
+/* 
+    <576px	Small
+    ≥576px	Medium
+    ≥768px	Large
+    ≥992px	X-Large
+    ≥1200px	XX-Large
+    ≥1400px
+    .container	100%	540px	720px	960px	1140px	1320px
+*/
+
+
+/*          COLOR SCHEME            */
+/*  
+    Background Color:
+    
+
+    Color:
+
+
+*/
+
+
