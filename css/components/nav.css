@@ -24,6 +24,10 @@
     display: block;
 }
 
+.c-nav__link:hover {
+    color: #84239B;
+}
+
 .c-nav__link.is-active {
     font-weight: 600;
     font-size: 24px;
