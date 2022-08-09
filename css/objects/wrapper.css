@@ -4,16 +4,16 @@
 }
 
 .o-wrapper--dark {
+    background-color: #0a0a0a;
+    color: #FFFFFFa4;
+}
+
+.o-wrapper--gray {
     background-color: #1E1E1E;
     color: #FFFFFF;
 }
 
-.o-wrapper--gray {
-    background-color: #393939;
-    color: #FFFFFFa4;
-}
-
 .o-wrapper--light {
-    background-color: #757575;
+    background-color: #393939;
     color: #FFFFFF;
 }
