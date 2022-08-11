@@ -17,13 +17,26 @@
     top: 14px;
     border-radius: 3px;
     width: 6px;
-    height: 336px;
+    height: 100%;
+    max-height: 6px;
     background-color: #84239B;
+    transition: all 1.0s;
+}
+
+.c-hero__divider.is-active {
+    max-height: 336px;
 }
 
 .c-hero__name {
     position: absolute;
     left: 10px;
+    opacity: 0%;
+    transition-delay: 1s;
+    transition: all 1s;
+}
+
+.c-hero__name.is-active {
+    opacity: 100%;
 }
 
 .c-hero__firstname {}
@@ -34,6 +47,13 @@
     position: absolute;
     top: 232px;
     left: 15px;
+    opacity: 0%;
+    transition-delay: 1s;
+    transition: all 1s;
+}
+
+.c-hero__text.is-active {
+    opacity: 100%;
 }
 
 .c-hero__title {
