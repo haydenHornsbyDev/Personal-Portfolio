@@ -1,3 +1,0 @@
-(function() {
-    // misc js here
-})();
