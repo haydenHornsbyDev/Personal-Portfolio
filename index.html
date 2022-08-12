@@ -30,7 +30,7 @@
                         </p>
                     </div>
                 </div>
-                <a class="c-hero__arrow" href="#header">
+                <a class="c-hero__arrow" href="#header" data-hero-arrow>
                     <svg xmlns="http://www.w3.org/2000/svg" width="70.71" height="43.356" viewBox="0 0 70.71 43.356">
                         <path data-name="Subtraction 1"
                             d="M35.355,86.711h0L0,51.355l8-8L35.356,70.71,62.711,43.355l8,8L35.356,86.711Z"
@@ -43,24 +43,11 @@
             <div class="o-container">
                 <header class="c-header">
                     <nav class="c-header__nav c-nav">
-                        <!-- <div class="c-nav__carousel">
-                            <div class="c-nav__arrows" data-glide-el="controls">
-                                <div class="c-nav__arrow--left" data-glide-dir="<"></div>
-                                <div class="c-nav__arrow--right" data-glide-dir=">"></div>
-                            </div>
-                            <div class="c-nav__track glide__track" data-glide-el="track">
-                                <ul class="glide__slides">
-                                    <li class="glide__slide"><a class="c-nav__link" href="#">0</a></li>
-                                    <li class="glide__slide"><a class="c-nav__link" href="#">1</a></li>
-                                    <li class="glide__slide"><a class="c-nav__link" href="#">2</a></li>
-                                </ul>
-                            </div>
-                        </div> -->
                         <ul class="c-nav__list">
-                            <li class="c-nav__item"><a class="c-nav__link is-active" href="/#header">Home</a></li>
-                            <li class="c-nav__item"><a class="c-nav__link" href="/about#header">About</a></li>
-                            <li class="c-nav__item"><a class="c-nav__link" href="/projects#header">Projects</a></li>
-                            <li class="c-nav__item"><a class="c-nav__link" href="/contact#header">Contact</a></li>
+                            <!-- <li class="c-nav__item"><a class="c-nav__link is-active" href="/#header">Home</a></li> -->
+                            <li class="c-nav__item"><a class="c-nav__link" href="/#about">About</a></li>
+                            <li class="c-nav__item"><a class="c-nav__link" href="/#projects">Projects</a></li>
+                            <li class="c-nav__item"><a class="c-nav__link" href="/#contact">Contact</a></li>
                         </ul>
                     </nav>
                     <div class="c-header__smth">
@@ -70,13 +57,57 @@
                 </header>
             </div>
         </div>
-        <div class="o-wrapper o-wrapper--light">
-            <div class="o-container">
-                <div class="c-index__content">
+        <div class="c-index__content">
+            <div class="o-wrapper o-wrapper--light">
+                <div class="o-container">
+                    <div class="c-index__about c-about">
+                        <div class="c-index__anchor-offset" id="about"></div>
+                        <p>a</p>
+                    </div>
+                </div>
+            </div>
+            <div class="o-wrapper o-wrapper--light">
+                <div class="o-container">
+                    <div class="c-index__projects c-projects">
+                        <div class="c-index__anchor-offset" id="projects"></div>
+                        <p>a</p>
+                    </div>
+                </div>
+            </div>
+            <div class="o-wrapper o-wrapper--light">
+                <div class="o-container">
+                    <div class="c-index__contact c-contact">
+                        <div class="c-index__anchor-offset" id="contact"></div>
+                        <p>a</p>
+                        <div class="c-contact__contact-form c-contact-form">
+                            <form class="c-contact-form__form" action="mailto:hhornsbydev@gmail.com">
+                                <label for="email" class="is-hidden">Email</label>
+                                <input id="email" class="c-contact-form__email" type="email" name="email" value="" placeholder="Your Email" required>
+                                <label for="subject" class="is-hidden">Subject</label>
+                                <input id="subject" class="c-contact-form__subject" type="text" name="subject" value="" placeholder="Subject">
+                                <label for="text-field" class="is-hidden">Message</label>
+                                <textarea id="text-field" class="c-contact-form__text" name="message" placeholder="Message" required></textarea>
+                                <input class="c-contact-form__submit" type="submit" value="Submit">
+                            </form>
+                        </div>
+                        <div class="c-contact__contact-links c-contact-links">
+                            <div class="c-contact-links__phone">
+                                <h5 class="c-contact-links__label">Phone:</h4>
+                                <a class="c-contact-links__link" href="tel:07597766649">Call Me</a>
+                            </div>
+                            <div class="c-contact-links__sms">
+                                <h5 class="c-contact-links__label">Phone:</h4>
+                                <a class="c-contact-links__link" href="sms:07597766649">Text Me</a>
+                            </div>
+                            <div class="c-contact-links__mailto">
+                                <h5 class="c-contact-links__label">Phone:</h4>
+                                <a class="c-contact-links__link" href="mailto:hhornsbydev@gmail.com">Email Me</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="endSpace o-wrapper o-wrapper--light"></div>
         <div class="o-wrapper o-wrapper--light">
             <div class="o-container">
                 <footer class="c-index__footer c-footer">
@@ -116,40 +147,6 @@
             </div>
         </div>
     </div>
-    <!--
-    <div class="glide">
-        <div data-glide-el="controls">
-            <div data-glide-dir="<"></div>
-            <div data-glide-dir=">"></div>
-        </div>
-        <div class="glide__track" data-glide-el="track">
-            <ul class="glide__slides">
-                <li class="glide__slide">0</li>
-                <li class="glide__slide">1</li>
-                <li class="glide__slide">2</li>
-            </ul>
-        </div>
-    </div>
-    -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/glide.min.js"
-        integrity="sha512-IkLiryZhI6G4pnA3bBZzYCT9Ewk87U4DGEOz+TnRD3MrKqaUitt+ssHgn2X/sxoM7FxCP/ROUp6wcxjH/GcI5Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-        new Glide('.c-nav__carousel', {
-            type: 'carousel',
-            startAt: 0,
-            perView: 3,
-            gap: 0,
-            classes: {
-                activeNav: 'is-active'
-            },
-            // breakpoints: {
-            //     766: { perView: 1 },
-            //     1006: { perView: 2 },
-            //     1186: { perView: 3 }
-            // }
-        }).mount()
-    </script> -->
     <script src="js/scripts.js"></script>
     <script src="js/components/hero.js"></script>
 </body>

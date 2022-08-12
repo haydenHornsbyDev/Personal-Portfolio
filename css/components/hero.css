@@ -68,4 +68,11 @@
     bottom: 20px;
     left: calc(50% - 35.35px);
     display: block;
+    opacity: 0%;
+    transition: opacity 5s;
+    transition-delay: 3s;
+}
+
+.c-hero__arrow.is-active {
+    opacity: 100%;
 }
