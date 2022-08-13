@@ -1,0 +1,38 @@
+.c-contact-links {}
+
+.c-contact-links__phone {
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 10px #210e26a4;
+    border: 2px solid #84239B;
+    border-radius: 6px;
+    padding: 15px 30px;
+    width: fit-content;
+    background-color: #2A2A2A;
+}
+
+.c-contact-links__label {}
+
+.c-contact-links__number {}
+
+.c-contact-links__link {
+    display: block;
+}
+
+.c-contact-links__link:hover {
+    color: #84239B;
+}
+
+.c-contact-links__link--phone {
+    display: inline-block;
+}
+
+.c-contact-links__link--email {}
+
+.c-contact-links__mailto {
+    box-shadow: 0px 5px 10px #210e26a4;
+    border: 2px solid #84239B;
+    border-radius: 6px;
+    padding: 10px 30px;
+    width: fit-content;
+    background-color: #2A2A2A;
+}
