@@ -1,1 +1,87 @@
 .c-contact-form {}
+
+.c-contact-form__header {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: #FFFFFFa4;
+}
+
+.c-contact-form__form {}
+
+.c-contact-form__form > *:not(:last-child) {
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 10px #210e26a4;
+    border: 1px solid #84239B;
+    border-radius: 6px;
+    padding: 14px 15px 13px 15px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    font-family: inherit;
+    background-color: #2A2A2A;
+    color: #FFFFFF;
+}
+
+.c-contact-form__email {}
+
+.c-contact-form__email::placeholder {
+    color: inherit;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.c-contact-form__email:focus-visible {
+    border-color: #D420FF;
+    outline: none;
+}
+
+.c-contact-form__subject {}
+
+.c-contact-form__subject::placeholder {
+    color: inherit;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.c-contact-form__subject:focus-visible {
+    border-color: #D420FF;
+    outline: none;
+}
+
+.c-contact-form__text {
+    height: 96px;
+    resize: none;
+}
+
+.c-contact-form__text::placeholder {
+    color: inherit;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.c-contact-form__text:focus-visible {
+    border-color: #D420FF;
+    outline: none;
+}
+
+.c-contact-form__submit {
+    display: block;
+    margin: 20px auto 0px auto;
+    box-shadow: 0px 5px 10px #210e26a4;
+    border: 1px solid #84239B;
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: #2A2A2A;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.c-contact-form__submit:active {
+    border-color: #D420FF;
+    background-color: #0A0A0A;
+    color: #ffffffA4;
+}
