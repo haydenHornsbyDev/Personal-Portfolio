@@ -1,13 +1,5 @@
 .c-contact {}
 
-.c-contact__border--top {
-    margin-bottom: 80px;
-    border-radius: 1px;
-    width: 100%;
-    height: 2px;
-    background-color: #84239B;
-}
-
 .c-contact__contact-form {}
 
 .c-contact__divider {

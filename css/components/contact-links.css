@@ -1,4 +1,6 @@
-.c-contact-links {}
+.c-contact-links {
+    color: #FFFFFF;
+}
 
 .c-contact-links__phone {
     margin-bottom: 20px;

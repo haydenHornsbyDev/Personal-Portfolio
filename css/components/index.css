@@ -22,6 +22,14 @@
     top: -66px;
 }
 
+.c-index__border--top {
+    margin-bottom: 80px;
+    border-radius: 1px;
+    width: 100%;
+    height: 2px;
+    background-color: #84239B;
+}
+
 .c-index__about {
     padding-top: 80px;
     padding-bottom: 80px;
