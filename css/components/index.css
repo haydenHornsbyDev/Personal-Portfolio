@@ -30,6 +30,19 @@
     background-color: #84239B;
 }
 
+.c-index__card {
+    box-shadow: 0px 5px 10px #210e26a4;
+    border: 1px solid #84239B;
+    border-radius: 6px;
+    background-color: #2A2A2A;
+}
+
+@media only screen and (min-width: 1200px) {
+    .c-index__card {
+        border-width: 2px;
+    }
+}
+
 .c-index__about {
     padding-top: 80px;
     padding-bottom: 80px;

@@ -8,12 +8,8 @@
 .c-about__profile-pic {
     overflow: hidden;
     margin: 0 auto 40px auto;
-    box-shadow: 0px 5px 10px #210e26a4;
-    border: 1px solid #84239B;
-    border-radius: 6px;
     width: fit-content;
-    max-width: 100%;
-    background-color: #2A2A2A;
+    max-width: 400px;
 }
 
 .c-about__profile-pic > img {
@@ -21,7 +17,10 @@
     width: 100%;
 }
 
-.c-about__text {}
+.c-about__text {
+    margin: 0 auto;
+    max-width: 400px;
+}
 
 .c-about__para {
     margin-bottom: 20px;
@@ -30,4 +29,8 @@
 
 .c-about__para--bot {
     margin-bottom: 0;
+}
+
+@media only screen and (min-width: 992px) {
+    /* inline/flex wraimg and txt */
 }

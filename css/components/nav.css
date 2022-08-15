@@ -23,3 +23,19 @@
     font-size: 24px;
     text-transform: uppercased;
 }
+
+@media only screen and (min-width: 576px) {
+    .c-nav__item {
+        padding: 0 16px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .c-nav__link {
+        font-size: 20px;
+    }
+
+    .c-nav__link:hover {
+        font-size: 20px;
+    }
+}

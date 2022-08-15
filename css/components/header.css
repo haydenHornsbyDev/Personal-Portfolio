@@ -30,3 +30,9 @@
 .c-header__smth:hover .c-header__face--2 {
     display: block;
 }
+
+@media only screen and (min-width: 992px) {
+    .c-header__smth {
+        font-size: 20px;
+    }
+}

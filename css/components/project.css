@@ -5,14 +5,10 @@
     display: block;
     overflow: hidden;
     margin: 0 auto 40px auto;
-    box-shadow: 0px 5px 10px #210e26a4;
-    border: 1px solid #84239B;
-    border-radius: 6px;
     width: fit-content;
-    max-width: 100%;
+    max-width: 400px;
     height: 100%;
     max-height: 400px;
-    background-color: #2A2A2A;
 }
 
 .c-project__example-pic > img {
@@ -48,7 +44,10 @@
     display: none;
 }
 
-.c-project__text {}
+.c-project__text {
+    margin: 0 auto;
+    max-width: 400px;
+}
 
 .c-project__name {
     margin-bottom: 20px;
