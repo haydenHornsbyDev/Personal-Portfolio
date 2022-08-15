@@ -21,11 +21,13 @@
     width: 100%;
 }
 
-.c-about__text {
+.c-about__text {}
+
+.c-about__para {
     margin-bottom: 20px;
     color: #FFFFFFa4;
 }
 
-.c-about__text--bot {
+.c-about__para--bot {
     margin-bottom: 0;
 }

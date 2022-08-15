@@ -9,7 +9,7 @@
     position: relative;
     top: calc((50vh - 45.35px) - 168px);
     height: 336px;
-    width: inherit;
+    width: 343px;
 }
 
 .c-hero__divider {
@@ -24,7 +24,7 @@
 }
 
 .c-hero__divider.is-active {
-    max-height: 336px;
+    max-height: 100%;
 }
 
 .c-hero__name {
@@ -61,6 +61,83 @@
 
 .c-hero__caption {
     line-height: 24px;
+}
+
+@media only screen and (min-width: 576px) {
+    .c-hero__content {
+        left: calc(50% - 171.5px);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .c-hero__content {
+        top: calc((50vh - 45.35px) - 270px);
+        left: calc(50% - 389px);
+        width: 778px;
+        height: 478px;
+    }
+    
+    .c-hero__divider {
+        top: 22px;
+    }
+
+    .c-hero__name .c-hero__firstname {
+        line-height: 160px;
+    }
+
+    .c-hero__name .c-hero__surname {
+        line-height: 160px;
+    }
+
+    .c-hero__text {
+        top: 380px;
+        left: 20px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .c-hero__content {
+        top: calc((50vh - 45.35px) - 166px);
+        left: calc(50% - 267px);
+        height: 288px;
+    }
+    
+    .c-hero__divider {
+        top: 22px;
+    }
+
+    .c-hero__name {
+        transition: none;
+    }
+
+    .c-hero__name .c-hero__firstname {
+        opacity: 0%;
+        line-height: 160px;
+        transition: opacity 5s;
+    }
+
+    .c-hero__name .c-hero__surname {
+        opacity: 0%;
+        line-height: 160px;
+        transition: opacity 5s;
+        transition-delay: 1s;
+    }
+
+    .c-hero__name.is-active .c-hero__firstname {
+        opacity: 100%;
+    }
+
+    .c-hero__name.is-active .c-hero__surname {
+        opacity: 100%;
+    }
+    
+    .c-hero__text {
+        top: 190px;
+        left: -244px;
+        transition: opacity 5s;
+        transition-delay: 1s;
+        text-align: right;
+    }
 }
 
 .c-hero__arrow {

@@ -18,7 +18,7 @@ h3 {
     line-height: 48px;
 }
 
-@media only screen and (min-width: 1006px) {
+@media only screen and (min-width: 992px) {
     h1.u-enlarge {
         font-size: 168px;
         line-height: 223px;

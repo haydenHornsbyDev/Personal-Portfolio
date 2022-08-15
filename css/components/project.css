@@ -48,6 +48,8 @@
     display: none;
 }
 
+.c-project__text {}
+
 .c-project__name {
     margin-bottom: 20px;
 }
