@@ -1,2 +1,16 @@
 .c-projects {}
 
+.c-projects__header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.c-projects__project {}
+
+.c-projects__divider {
+    margin: 40px auto 40px auto;
+    border-radius: 1px;
+    width: 100px;
+    height: 2px;
+    background-color: #84239B;
+}

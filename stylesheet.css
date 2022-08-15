@@ -18,10 +18,11 @@
 @import "css/components/index.css";
 @import "css/components/about.css";
 @import "css/components/projects.css";
+@import "css/components/project.css";
 @import "css/components/contact.css";
-
 @import "css/components/contact-form.css";
 @import "css/components/contact-links.css";
+
 @import "css/components/hero.css";
 @import "css/components/header.css";
 @import "css/components/nav.css";
