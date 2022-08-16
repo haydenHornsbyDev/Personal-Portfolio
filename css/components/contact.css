@@ -11,3 +11,13 @@
 }
 
 .c-contact__contact-links {}
+
+@media only screen and (min-width: 992px) {
+    .c-contact__contact-form {
+        padding-bottom: 20px;
+    }
+    
+    .c-contact__contact-links {
+        padding-top: 20px;
+    }
+}

@@ -10,9 +10,6 @@
 <body>
     <div class="c-index">
         <div class="o-wrapper o-wrapper--gray c-index__hero c-hero" data-hero>
-            <!-- <div class="c-hero__img c-img">
-                <img src="1.png">
-            </div> -->
             <div class="o-container">
                 <div class="c-hero__content">
                     <div class="c-hero__divider" data-hero-divider></div>
@@ -58,26 +55,29 @@
                 <div class="o-container">
                     <div class="c-index__about c-about">
                         <div class="c-index__anchor-offset" id="about"></div>
-                        <h3 class="c-about__header u-enlarge">About Me</h3>
-                        <div class="c-about__profile-pic c-index__card">
-                            <img src="/media/c-about__profile-pic.jpg">
-                        </div>
-                        <div class="c-about__text">
-                            <p class="c-about__para">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua. Dignissim sodales ut eu sem integer vitae justo.
-                                Et tortor consequat id porta nibh venenatis. Iaculis urna
-                                id volutpat lacus.
-                            </p>
-                            <p class="c-about__para c-about__para--bot">
-                                Dictumst vestibulum rhoncus est
-                                pellentesque. Sit amet mauris commodo quis. Suspendisse
-                                sed nisi lacus sed viverra tellus. Viverra mauris in aliquam
-                                sem. Quam nulla porttitor massa id neque aliquam. Libero
-                                nunc consequat interdum varius. At volutpat diam ut venenatis
-                                tellus in. Augue ut lectus arcu bibendum at varius vel.
-                            </p>
+                        <div class="c-about__content">
+                            <h3 class="c-about__header--mobile u-enlarge">About Me</h3>
+                            <div class="c-about__profile-pic c-index__card">
+                                <img src="/media/c-about__profile-pic.jpg">
+                            </div>
+                            <div class="c-about__text">
+                                <h2 class="c-about__header--desktop">About Me</h2>
+                                <p class="c-about__para">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Dignissim sodales ut eu sem integer vitae justo.
+                                    Et tortor consequat id porta nibh venenatis. Iaculis urna
+                                    id volutpat lacus.
+                                </p>
+                                <p class="c-about__para c-about__para--bot">
+                                    Dictumst vestibulum rhoncus est
+                                    pellentesque. Sit amet mauris commodo quis. Suspendisse
+                                    sed nisi lacus sed viverra tellus. Viverra mauris in aliquam
+                                    sem. Quam nulla porttitor massa id neque aliquam. Libero
+                                    nunc consequat interdum varius. At volutpat diam ut venenatis
+                                    tellus in. Augue ut lectus arcu bibendum at varius vel.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -97,9 +97,9 @@
                             <div class="c-project__text">
                                 <h4 class="c-project__name u-text--white">Portfolio Template</h4>
                                 <p class="c-project__descript">
-                                    An agency portfolio template website coded with HTML, CSS, and JavaScript. 
-                                    Including individual pages for about, services, portfolio, individual projects, 
-                                    a blog, individual blogs, and a contact page. All of this was coded from a 
+                                    An agency portfolio template website coded with HTML, CSS, and JavaScript.
+                                    Including individual pages for about, services, portfolio, individual projects,
+                                    a blog, individual blogs, and a contact page. All of this was coded from a
                                     given Adobe XD design and creates a showcase of my skills used to code my first
                                     full website.
                                 </p>
@@ -122,7 +122,7 @@
                                     Viverra mauris in aliquam
                                     sem. Quam nulla porttitor massa id neque aliquam. Libero
                                     nunc consequat interdum varius. At volutpat diam ut venenatis
-                                    tellus in. Augue ut lectus arcu bibendum at varius vel.
+                                    tellus in.
                                 </p>
                             </div>
                         </div>
@@ -143,11 +143,11 @@
                             <h4 class="c-contact-form__header u-enlarge">Get In Touch!</h4>
                             <form class="c-contact-form__form" action="mailto:hhornsbydev@gmail.com">
                                 <label for="email" class="is-hidden">Email</label>
-                                <input id="email" class="c-contact-form__email c-index__card" type="email" name="email" value=""
-                                    placeholder="Your Email" required>
+                                <input id="email" class="c-contact-form__email c-index__card" type="email" name="email"
+                                    value="" placeholder="Your Email" required>
                                 <label for="subject" class="is-hidden">Subject</label>
-                                <input id="subject" class="c-contact-form__subject c-index__card" type="text" name="subject" value=""
-                                    placeholder="Subject">
+                                <input id="subject" class="c-contact-form__subject c-index__card" type="text"
+                                    name="subject" value="" placeholder="Subject">
                                 <label for="text-field" class="is-hidden">Message</label>
                                 <textarea id="text-field" class="c-contact-form__text c-index__card" name="message"
                                     placeholder="Message" required></textarea>
@@ -159,10 +159,12 @@
                             <div class="c-contact-links__phone c-index__card">
                                 <h5 class="c-contact-links__label">Phone:</h5>
                                 <p class="c-contact-links__number">07597 766649</p>
-                                <a class="c-contact-links__link c-contact-links__link--phone"
-                                    href="tel:07597766649">Call Me</a>
-                                <a class="c-contact-links__link c-contact-links__link--phone"
-                                    href="sms:07597766649">Text Me</a>
+                                <div class="c-contact-links__phone-links">
+                                    <a class="c-contact-links__link c-contact-links__link--phone"
+                                        href="tel:07597766649">Call Me</a>
+                                    <a class="c-contact-links__link c-contact-links__link--phone"
+                                        href="sms:07597766649">Text Me</a>
+                                </div>
                             </div>
                             <div class="c-contact-links__mailto c-index__card">
                                 <h5 class="c-contact-links__label">Email:</h5>
@@ -203,10 +205,10 @@
                     <div class="c-footer__divider"></div>
                     <ul class="c-footer__pages">
                         <li class="c-footer__page"><a class="c-footer__link--page" href="/">Home</a></li>
-                        <li class="c-footer__page"><a class="c-footer__link--page" href="/about#header">About</a></li>
-                        <li class="c-footer__page"><a class="c-footer__link--page" href="/projects#header">Projects</a>
+                        <li class="c-footer__page"><a class="c-footer__link--page" href="#about">About</a></li>
+                        <li class="c-footer__page"><a class="c-footer__link--page" href="#projects">Projects</a>
                         </li>
-                        <li class="c-footer__page"><a class="c-footer__link--page" href="/contact#header">Contact</a>
+                        <li class="c-footer__page"><a class="c-footer__link--page" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </footer>

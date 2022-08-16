@@ -1,13 +1,26 @@
 .c-about {}
 
-.c-about__header {
+.c-about__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.c-about__header--mobile {
     margin-bottom: 40px;
     text-align: center;
+    width: fit-content;
+}
+
+.c-about__header--desktop {
+    display: none;
+    margin-bottom: 40px;
 }
 
 .c-about__profile-pic {
     overflow: hidden;
-    margin: 0 auto 40px auto;
+    margin-bottom: 40px;
     width: fit-content;
     max-width: 400px;
 }
@@ -18,7 +31,6 @@
 }
 
 .c-about__text {
-    margin: 0 auto;
     max-width: 400px;
 }
 
@@ -32,5 +44,19 @@
 }
 
 @media only screen and (min-width: 992px) {
-    /* inline/flex wraimg and txt */
+    .c-about__content {
+        flex-direction: row-reverse;
+    }
+
+    .c-about__header--mobile {
+        display: none;
+    }
+
+    .c-about__header--desktop {
+        display: block;
+    }
+
+    .c-about__profile-pic {
+        margin-bottom: 0;
+    }
 }

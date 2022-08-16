@@ -1,4 +1,11 @@
 .c-contact-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
     color: #FFFFFF;
 }
 
@@ -28,5 +35,28 @@
 
 .c-contact-links__mailto {
     padding: 10px 30px;
-    width: fit-content;
+}
+
+@media only screen and (min-width: 576px) {
+    .c-contact-links {
+        align-items: unset;
+        flex-direction: row;
+    }
+
+    .c-contact-links__phone {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 0;
+        width: 45%;
+    }
+
+    .c-contact-links__mailto {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 45%;
+    }
 }

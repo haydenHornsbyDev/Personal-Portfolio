@@ -1,10 +1,15 @@
-.c-project {}
+.c-project {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
 
 .c-project__example-pic {
     position: relative;
     display: block;
     overflow: hidden;
-    margin: 0 auto 40px auto;
+    margin-bottom: 40px;
     width: fit-content;
     max-width: 400px;
     height: 100%;
@@ -45,7 +50,6 @@
 }
 
 .c-project__text {
-    margin: 0 auto;
     max-width: 400px;
 }
 
@@ -54,3 +58,21 @@
 }
 
 .c-project__descript {}
+
+@media only screen and (min-width: 992px) {
+    .c-project {
+        flex-direction: row;
+    }
+
+    .c-project__example-pic {
+        margin-bottom: 0;
+    }
+
+    .c-project__pic--mobile {
+        display: none;
+    }
+
+    .c-project__pic--desktop {
+        display: block;
+    }
+}

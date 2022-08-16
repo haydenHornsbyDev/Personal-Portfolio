@@ -29,3 +29,13 @@
     background-color: #0A0A0A;
     color: #ffffffA4;
 }
+
+@media only screen and (min-width: 992px) {
+    .c-projects__project {
+        padding: 20px 0px;
+    }
+
+    .c-projects__website-git {
+        margin-top: 60px;
+    }
+}
