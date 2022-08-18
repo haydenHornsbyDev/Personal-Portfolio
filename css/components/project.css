@@ -26,7 +26,7 @@
 }
 
 .c-project__example-pic:hover > img {
-    opacity: 50%;
+    opacity: 40%;
 }
 
 .c-project__example-pic:hover > .c-project__img-overlay {
@@ -36,11 +36,22 @@
 .c-project__img-overlay {
     position: absolute;
     z-index: 2;
-    top: calc(50% - 16px);
     display: none;
     width: 100%;
     text-align: center;
     color: #FFFFFF;
+}
+
+.c-project__img-overlay:hover {
+    color: #84239B;
+}
+
+.c-project__img-overlay--top {
+    top: calc(50% - 80px);
+}
+
+.c-project__img-overlay--bot {
+    top: calc(50% + 48px);
 }
 
 .c-project__pic--mobile {}
