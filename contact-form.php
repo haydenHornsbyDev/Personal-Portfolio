@@ -24,11 +24,11 @@ if (isset($_POST['email'])&&isset($_POST['subject'])&&isset($_POST['message'])) 
 </head>
 
 <body>
-    <div class="c-form-submission">
-        <div class="o-wrapper o-wrapper--light">
-            <div class="o-container">
+    <div class="o-wrapper o-wrapper--light">
+        <div class="o-container">
+            <div class="c-form-submission">
                 <div class="c-form-submission__card">
-                    <h5 class="c-form-submission__header">Message Sent!</h5>
+                    <h4 class="c-form-submission__header u-text--white">Message Sent!</h4>
                     <a class="c-form-submission__link" href="/index.html">Return to page</a>
                 </div>
             </div>
