@@ -1,9 +1,9 @@
 <?php
 
 if (isset($_POST['email'])&&isset($_POST['subject'])&&isset($_POST['message'])) {
-    $emailFrom = $_POST['email'];
-    $subject = $_POST['subject'];
-    $message = $_POST['message'];
+    $emailFrom = htmlspecialchars($_POST['email']);
+    $subject = htmlspecialchars($_POST['subject']);
+    $message = htmlspecialchars($_POST['message']);
 
     $mailTo = "dev@haydenhornsby.xyz";
     $txt = "You have received an email from ".$emailFrom.".\n\n".$message;
