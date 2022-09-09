@@ -7,13 +7,13 @@
     flex-direction: column;
 }
 
-.c-about__header--mobile {
+.c-about__heading--mobile {
     margin-bottom: 40px;
     text-align: center;
     width: fit-content;
 }
 
-.c-about__header--desktop {
+.c-about__heading--desktop {
     display: none;
     margin-bottom: 40px;
 }
@@ -48,11 +48,11 @@
         flex-direction: row-reverse;
     }
 
-    .c-about__header--mobile {
+    .c-about__heading--mobile {
         display: none;
     }
 
-    .c-about__header--desktop {
+    .c-about__heading--desktop {
         display: block;
     }
 

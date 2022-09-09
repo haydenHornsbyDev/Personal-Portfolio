@@ -25,7 +25,7 @@ if (isset($_POST['email'])&&isset($_POST['subject'])&&isset($_POST['message'])) 
         <div class="o-container">
             <div class="c-form-submission">
                 <div class="c-form-submission__card">
-                    <h4 class="c-form-submission__header u-text--white">Message Sent!</h4>
+                    <h4 class="c-form-submission__heading u-text--white">Message Sent!</h4>
                     <a class="c-form-submission__link" href="/index.html">Return to page</a>
                 </div>
             </div>

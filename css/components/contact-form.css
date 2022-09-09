@@ -1,6 +1,6 @@
 .c-contact-form {}
 
-.c-contact-form__header {
+.c-contact-form__heading {
     margin-top: -20px;
     margin-bottom: 20px;
     color: #FFFFFFa4;
@@ -107,7 +107,7 @@
         max-width: 700px;
     }
 
-    .c-contact-form__header {
+    .c-contact-form__heading {
         margin-top: -20px;
         margin-bottom: 40px;
     }
