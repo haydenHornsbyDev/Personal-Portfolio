@@ -9,9 +9,6 @@ if (isset($_POST['email'])&&isset($_POST['subject'])&&isset($_POST['message'])) 
     $txt = "You have received an email from ".$emailFrom.".\n\n".$message;
 
     mail($mailTo, $subject, $txt);
-    
-    // $message_sent = mail($mailTo, $subject, $txt);
-    // var_dump($message_sent);
 }
 
 ?>
