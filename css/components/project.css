@@ -50,6 +50,10 @@
     top: calc(50% - 80px);
 }
 
+.c-project__img-overlay--mid {
+    top: calc(50% - 16px);
+}
+
 .c-project__img-overlay--bot {
     top: calc(50% + 48px);
 }
