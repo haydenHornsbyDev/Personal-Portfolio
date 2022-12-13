@@ -29,7 +29,7 @@
 @import "css/components/footer.css";
 
 /*              UTILITIES           */
-@import "css/utilities/u-text.css";
+@import "css/utilities/text.css";
 
 /*              STATE               */
 @import "css/states/hidden.css";
